@@ -32,6 +32,6 @@ class Club{
     }
     public function ajouterSport(Sport $unSport): void
     {
-        $this->lesSports=$unSport;
+        $this->lesSports[]=$unSport;
     }
 }

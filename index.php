@@ -15,7 +15,7 @@ $club[2] = new Club(2, "PSG", 67);
 $club[3] = new Club(3, "Nantes", 65);
 
 
-/*
+
 // Les sports de Dijon
 $sb = new SportBallon("Basketball", 5, 35, 45);
 $club[1]->AjouterSport($sb);
@@ -41,5 +41,5 @@ $club[3]->AjouterSport($sport3);
 $club[3]->AjouterSport($sportBallon3);
 $club[3]->AjouterSport($sportBallon4);
 $club[3]->AjouterSport($sportRelais2);
-*/
+
 
