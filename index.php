@@ -5,12 +5,15 @@ require __DIR__ . '/vendor/autoload.php';
 
 use TpSport\Club;
 use TpSport\Sport;
+use TpSport\SportRelais;
+use TpSport\SportBallon;
 
 // Init les clubs
 $club = array();
 $club[1] = new Club(1, "Dijon", 63);
 $club[2] = new Club(2, "PSG", 67);
 $club[3] = new Club(3, "Nantes", 65);
+
 
 /*
 // Les sports de Dijon
