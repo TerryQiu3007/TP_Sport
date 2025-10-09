@@ -1,0 +1,15 @@
+{
+    "name": "qiute/tp_sport",
+    "autoload": {
+        "psr-4": {
+            "TpSport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Qiute",
+            "email": "qiuterry3007@gmail.com"
+        }
+    ],
+    "require": {}
+}
