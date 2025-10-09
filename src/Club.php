@@ -1,4 +1,7 @@
 <?php
+
+namespace TpSport;
+
 class Club{
     private int $idClub;
     private string $nomClub;

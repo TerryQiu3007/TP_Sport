@@ -1,4 +1,11 @@
 <?php
+
+//include 
+require __DIR__ . '/vendor/autoload.php';
+
+use TpSport\Club;
+use TpSport\Sport;
+
 // Init les clubs
 $club = array();
 $club[1] = new Club(1, "Dijon", 63);

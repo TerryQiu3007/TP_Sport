@@ -1,5 +1,9 @@
 <?php
 
+namespace TpSport;
+
+use TpSport\Club;
+
 class Sport{
 
     private string $nomSport;
@@ -14,5 +18,9 @@ class Sport{
     public function getNomSport():string 
     {
         return $this->nomSport;
+    }
+    public function getNbJoueurs():string 
+    {
+        return $this->nbJoueurs;
     }
 }
