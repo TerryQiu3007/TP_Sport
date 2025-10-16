@@ -16,7 +16,7 @@ class Club{
 
     public function getIdClub(): int 
     {
-        return $this->idclub;
+        return $this->idClub;
     }
     public function getNomClub(): string 
     {

@@ -43,3 +43,7 @@ $club[3]->AjouterSport($sportBallon4);
 $club[3]->AjouterSport($sportRelais2);
 
 
+echo"LISTE DES CLUBS\n";
+foreach ($club as $club){
+    echo $club->getIdClub()." - ".$club->getNomClub(). " ".$club->getNbPoint(). "\n";
+}
